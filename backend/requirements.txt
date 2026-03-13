@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+supabase
+google-generativeai
+python-dotenv
+spacy
+pydantic
+pydantic-settings
+python-multipart
+beautifulsoup4
+playwright
+pymupdf
+requests

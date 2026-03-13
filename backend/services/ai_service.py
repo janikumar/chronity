@@ -192,15 +192,15 @@ class AIService:
         
         Return exactly and only a JSON object with this format:
         {{
-            "company": "string",
-            "role": "string",
-            "type": "string",
-            "eligibility": "string",
-            "skills": ["string"],
+            "company": "string (The name of the company/organizer)",
+            "role": "string (The title of the position/opportunity)",
+            "type": "string (e.g., Internship, Full-time, Hackathon)",
+            "eligibility": "string (who can apply)",
+            "skills": ["string"] (The tech stack and required skills mentioned in the mail),
             "deadline": "string",
-            "link": "string",
+            "link": "string (URL to apply or more details)",
             "location": "string",
-            "description": "string"
+            "description": "string (A concise, 1-2 sentence professional summary of what this opportunity is about)"
         }}
         """
         

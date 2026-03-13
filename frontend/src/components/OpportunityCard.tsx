@@ -143,10 +143,10 @@ const OpportunityCard: React.FC<OpportunityCardProps> = ({
 
               {/* Description */}
               {description && (
-                <div className="mb-6">
-                  <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-3">Email Summary</h3>
-                  <div className="rounded-2xl bg-white/3 border border-white/5 p-4 max-h-52 overflow-y-auto custom-scroll">
-                    <p className="text-slate-300 text-sm leading-relaxed whitespace-pre-wrap">{description}</p>
+                <div className="mb-8">
+                  <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mb-4">EMAIL SUMMARY</h3>
+                  <div className="rounded-[1.5rem] bg-slate-900/40 border border-white/5 p-6 shadow-inner">
+                    <p className="text-slate-300 text-sm leading-relaxed font-medium">{description}</p>
                   </div>
                 </div>
               )}
@@ -154,10 +154,10 @@ const OpportunityCard: React.FC<OpportunityCardProps> = ({
               {/* Skills */}
               {skillList.length > 0 && (
                 <div className="mb-6">
-                  <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-3">Required Skills</h3>
-                  <div className="flex flex-wrap gap-2">
+                  <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mb-4">REQUIRED SKILLS</h3>
+                  <div className="flex flex-wrap gap-2.5">
                     {skillList.map((skill, i) => (
-                      <span key={i} className="px-3 py-1.5 rounded-xl bg-blue-500/5 border border-blue-500/10 text-[11px] font-bold text-slate-300">
+                      <span key={i} className="px-5 py-2.5 rounded-2xl bg-slate-900/60 border border-blue-500/10 text-xs font-black text-white shadow-sm">
                         {skill}
                       </span>
                     ))}

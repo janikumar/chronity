@@ -1,0 +1,61 @@
+﻿node.exe : ΓÜá Port 3000 
+is in use by process 4068, 
+using available port 3001 
+instead.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (ΓÜá  
+   Port 3000 i...t 3001    
+ instead.:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+ΓÜá Warning: Next.js 
+inferred your workspace 
+root, but it may not be 
+correct.
+ We detected multiple 
+lockfiles and selected the 
+directory of C:\Users\heman
+\package-lock.json as the 
+root directory.
+ To silence this warning, 
+set `turbopack.root` in 
+your Next.js config, or 
+consider removing one of 
+the lockfiles if it's not 
+needed.
+   See https://nextjs.org/d
+ocs/app/api-reference/confi
+g/next-config-js/turbopack#
+root-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\heman\OneDriv
+e\Desktop\gem\Aadhrita\chro
+nity\frontend\package-lock.
+json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.1.42:3001
+- Environments: .env.local
+
+Γ£ô Starting...
+Γ¿» Unable to acquire lock 
+at C:\Users\heman\OneDrive\
+Desktop\gem\Aadhrita\chroni
+ty\frontend\.next\dev\lock,
+ is another instance of 
+next dev running?
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h
